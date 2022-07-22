@@ -1,0 +1,202 @@
+/* 
+
+*********** COLORS *****************
+#1a6a9f
+#ffffff
+#4d4d4d
+shadow: rgba(149, 157, 165, 0.7)
+*********** RESPONSIVE UNITS *******
+
+use of rem instead of pixel
+1 rem = 1em = 16px
+1px= 1/16 rem
+
+for full desktop screen:
+width: 1420px  ---- leaving 250 and 250 on either side of the container
+width= 1420/16 rem= 88.75rem 
+
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.container {
+  /* width= 1440/16 rem= 90rem */
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 3.2rem 3.2rem;
+}
+
+.about-section {
+  background-color: #1a6a9f;
+
+  /* 500px = 500/16= 31.25rem */
+  /* height: 31.25rem; */
+  height: auto;
+  color: #ffffff;
+}
+.about-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.about-heading {
+  /* 60px= 3.75rem */
+  font-size: 3.75rem;
+  /* 2.4rem= 38.4px */
+  margin: 2.4rem 0;
+}
+
+.about-text {
+  text-align: justify;
+  margin-bottom: 2.4rem;
+}
+
+.about-text strong,
+.about-text em {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.counter-container {
+  display: flex;
+}
+
+.counter-individual {
+  padding-right: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.counter-number {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.counter-title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+.about-images {
+  place-self: center;
+}
+
+.about-images-parent {
+  position: relative;
+}
+
+.about-picture-1 {
+  position: absolute;
+  top: -15.4rem;
+  right: -8.12rem;
+}
+
+.about-picture-2 {
+  position: absolute;
+  top: -7.75rem;
+}
+
+.about-picture-3 {
+  position: absolute;
+  top: -3.5rem;
+  right: -5.25rem;
+}
+
+.about-picture-all {
+  /* 12.5rem=200px */
+  height: 12.5rem;
+  /* 18.75rem=300px */
+  width: 18.75rem;
+  border-radius: 0.75rem;
+}
+
+.about-picture-all:hover {
+  z-index: 10;
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+.chapter-buttons {
+  display: flex;
+  justify-content: center;
+  /* 4.25rem=68px */
+  gap: 4.25rem;
+}
+
+.chapter-button-one,
+.chapter-button-two {
+  font-family: "DM Sans", sans-serif;
+  /* 1.3rem=20.8px */
+  font-size: 1.3rem;
+  color: #ffffff;
+  /* 0.75rem=12px */
+  border-radius: 0.75rem;
+  border: none;
+  /* 1rem=16px */
+  padding: 1rem;
+}
+
+.chapter-button-one:hover,
+.chapter-button-two:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+.chapter-button-one:active,
+.chapter-button-two:active {
+  box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;
+}
+
+.chapter-button-one {
+  background-color: #1a6a9f;
+}
+
+.chapter-button-two {
+  background-color: #4d4d4d;
+}
+
+.chapter-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 3rem;
+  gap: 1.25rem;
+  color: #4d4d4d;
+}
+
+.chapter-wie-logo {
+  /* 31.25rem = 500px */
+  width: 31.25rem;
+  /* 18.75rem=300px  */
+  height: 18.75rem;
+}
+
+.chapter-heading {
+  padding: 1.25rem 0;
+  font-weight: 700;
+}
+
+.chapter-subheading {
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+
+.chapter-text {
+  text-align: justify;
+}

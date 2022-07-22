@@ -1,0 +1,252 @@
+/* LAPTOP: 1024px = 64rem */
+
+@media (max-width: 64rem) {
+  body {
+    font-size: 0.75rem;
+  }
+
+  .container {
+    max-width: 64rem;
+  }
+
+  .about-picture-all {
+    /* 10rem=160px */
+    height: 10rem;
+
+    /* 15rem=240px */
+    width: 15rem;
+  }
+
+  .about-heading {
+    font-size: 2.8rem;
+    margin: 2rem 0;
+  }
+
+  .about-text {
+    margin-bottom: 2rem;
+  }
+
+  .about-text strong,
+  .about-text em {
+    font-size: 0.8rem;
+  }
+
+  .counter-individual {
+    padding-right: 3.2rem;
+  }
+
+  .counter-number {
+    font-size: 1.1rem;
+  }
+
+  .counter-title {
+    font-size: 0.85rem;
+    letter-spacing: 0.075rem;
+  }
+
+  .about-picture-1 {
+    top: -10.4rem;
+    right: -8.12rem;
+  }
+
+  .about-picture-2 {
+    top: -5.75rem;
+  }
+
+  .about-picture-3 {
+    top: -1.5rem;
+    right: -5.25rem;
+  }
+}
+
+/* TABLET: 768px = 48rem */
+
+@media (max-width: 48rem) {
+  body {
+    font-size: 0.6rem;
+  }
+
+  .container {
+    max-width: 48rem;
+  }
+
+  .about-picture-all {
+    height: 7rem;
+    width: 11rem;
+  }
+
+  .about-heading {
+    font-size: 2.4rem;
+    margin: 1.6rem 0;
+  }
+
+  .about-text {
+    margin-bottom: 2rem;
+  }
+
+  .about-text strong,
+  .about-text em {
+    font-size: 0.7rem;
+  }
+
+  .counter-individual {
+    padding-right: 2.8rem;
+  }
+
+  .counter-number {
+    font-size: 0.9rem;
+  }
+
+  .counter-title {
+    font-size: 0.75rem;
+    letter-spacing: 0.05rem;
+  }
+
+  .about-picture-1 {
+    top: -7.4rem;
+    right: -7.12rem;
+  }
+
+  .about-picture-2 {
+    top: -3.75rem;
+  }
+
+  .about-picture-3 {
+    top: -0.5rem;
+    right: -3.25rem;
+  }
+
+  .chapter-wie-logo {
+    width: 17.25rem;
+    height: 13.75rem;
+  }
+
+  .chapter-buttons {
+    gap: 2.75rem;
+  }
+
+  .chapter-button-one,
+  .chapter-button-two {
+    font-size: 0.75rem;
+    padding: 1rem;
+  }
+}
+
+/* Mobile: 640px = 40rem */
+
+@media (max-width: 40rem) {
+  body {
+    font-size: 0.75rem;
+  }
+
+  .container {
+    max-width: 40rem;
+    padding: 1.8rem;
+  }
+
+  .about-heading {
+    text-align: center;
+    margin: 0.6rem 0;
+  }
+
+  .about-container {
+    display: grid;
+    gap: 0.2rem;
+    grid-template-rows: 0.85fr 1fr;
+    grid-template-columns: 0;
+    justify-content: center;
+  }
+
+  .about-content {
+    order: 2;
+  }
+  .about-picture-1 {
+    top: -8.4rem;
+
+    right: -6.12rem;
+  }
+
+  .about-picture-2 {
+    top: -4.75rem;
+    right: -9.25rem;
+  }
+
+  .about-picture-3 {
+    top: -1.5rem;
+    right: -3.25rem;
+  }
+
+  .about-text,
+  .chapter-subheading,
+  .chapter-text {
+    text-align: center;
+  }
+
+  .about-text {
+    margin-top: -3rem;
+  }
+
+  .about-text strong,
+  .about-text em {
+    font-size: 0.85rem;
+  }
+
+  .counter-individual:last-child {
+    padding-right: 0;
+  }
+
+  .chapter-buttons {
+    margin-top: 1.4rem;
+  }
+
+  .chapter-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .chapter-logo {
+    margin-top: -3rem;
+  }
+
+  .chapter-content {
+    margin-top: -5rem;
+  }
+
+  .chapter-buttons {
+    gap: 1.5rem;
+  }
+
+  .chapter-button-one,
+  .chapter-button-two {
+    font-size: 0.6rem;
+    padding: 0.75rem;
+  }
+}
+
+/* MOBILE: 320px= 20rem */
+@media (max-width: 20rem) {
+  .about-picture-all {
+    /* 6rem=96px */
+    height: 6rem;
+
+    /* 10rem=160px */
+    width: 10rem;
+  }
+
+  .about-picture-1 {
+    top: -8.4rem;
+
+    right: -5.12rem;
+  }
+
+  .about-picture-2 {
+    top: -4.75rem;
+    right: -9.25rem;
+  }
+
+  .about-picture-3 {
+    top: -2.5rem;
+    right: -2.25rem;
+  }
+}
