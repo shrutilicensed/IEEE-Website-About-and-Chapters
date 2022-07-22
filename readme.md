@@ -1,5 +1,7 @@
 ## IEEE MRU WEBSITE
 
+Currently hosted at: https://ieee-about-and-chapters.netlify.app/
+
 Hello there! Hope you're doing well. Here I present my contribution for the IEEE MRU Student Branch Website I worked on during my summer break.
 
 My involvement is in making the design and responsive front-end. I worked on two sections: About and Chapters.
